@@ -77,3 +77,49 @@ p {
 #hsla{
     color: rgb(145, 177, 30)
 }
+
+/* Background */
+
+/* Semua tag div yang ada di dalam div yang memiliki class box-container */
+div.box-container div{
+    width: 500px;
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    color: white;
+}
+
+.background-color{
+    background-color: purple
+}
+
+.background-image {
+    background-image: url(./files/pictures/Logo-Css-720x720.png);
+    background-size: contain;
+    
+    /* 
+        contain
+        Ukuran gambar di ubah sesuai dengan ukuran element
+        Bisa menyisakan sebuah space jika rasio gambar dengan element berbeda
+        Berpatokan nilai terkecil antara lebar atau tinggi
+    */
+    
+    
+    /* background-size: cover; */
+    /* 
+        cover
+        Ukuran gambar di sesuaikan dengan ukuran dari element
+        jika ratio gambar dan rasio element tidak sama
+        menyebabkan sebagian gambar terpotong
+        Berpatokan nilai terbesar antara lebar atau tinggi
+    */
+}
+
+
+
+
+
+/* Font */
+
+
+/* Box model */

@@ -1,0 +1,18 @@
+/* Selector */
+
+/* 
+    h2: selector
+    color: property
+    aquamarine: value
+*/
+
+
+/* Untuk semua tag h2 */
+h2 {
+    color: aquamarine;
+}
+
+/* Semua tag paragraf */
+p {
+    color: goldenrod
+}

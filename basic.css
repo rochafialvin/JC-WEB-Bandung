@@ -10,9 +10,70 @@
 /* Untuk semua tag h2 */
 h2 {
     color: aquamarine;
+
 }
 
 /* Semua tag paragraf */
 p {
     color: goldenrod
+}
+
+/* ID Selector */
+
+/* Tag yang memiliki id = merah */
+#merah {
+    color: red;
+}
+
+/* CLASS Selector */
+
+/* Tag yang memiliki class =  */
+.hijau {
+    color: green;
+}
+
+/* Attribute Selector */
+
+/* Tag yang memiliki attribute id */
+[id] {
+    color: #6423cc
+}
+
+/* Colors */
+
+/* keyword */
+#corn {
+    color: cornflowerblue;
+}
+
+/*
+    rgb, red green blue
+    range: 0 - 255
+*/
+#rgb {
+    color: rgb(224, 116, 116)
+}
+
+/* 
+    alpha: 0 - 1
+    0.3 , 0.4
+*/
+
+#rgba {
+    color: #3cc771dc
+}
+/*
+    Bilangan hexadecimal
+    0 - 9 A - F
+*/
+#hex {
+    color: #24913f
+}
+
+#hsl{
+    color: hsl(157, 89%, 28%)
+}
+
+#hsla{
+    color: rgb(145, 177, 30)
 }

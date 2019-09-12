@@ -151,6 +151,10 @@ div.box-container div{
 }
 
 .back-attach {
+    /* Background akan 'menempel' di belakang element
+        jika element di scroll ke atas atau ke bawah
+        background tidak akan ikut
+    */
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
@@ -258,3 +262,22 @@ div.box-container div{
     margin-top: 50px;
     margin-bottom: 30px
 } */
+
+.last {
+    width: 70%;
+    /* 70% dari lebar parent (body) */
+
+
+    height: 300px;
+    font-family: Chilanka, cursive;
+    font-size: 30px;
+    background-color: cornflowerblue;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    padding: 30px;
+    margin: 2cm auto;
+    border: 10px dashed salmon;
+
+    /* border: weight style (solid, dotted, dashed) color */
+}

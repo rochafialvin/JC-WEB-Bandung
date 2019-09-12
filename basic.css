@@ -150,16 +150,17 @@ div.box-container div{
     */
 }
 
-.background-attachment-one {
-    background-image: url('./files/pictures/logo-css-300x300.png');
+.back-attach {
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
+.background-attachment-one {
+    background-image: url('./files/pictures/logo-css-300x300.png');
+}
+
 .background-attachment-two {
     background-image: url('./files/pictures/kitty.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
 }
 
 .background-shorthand {
@@ -167,8 +168,36 @@ div.box-container div{
 }
 
 
-
 /* Font */
+#font {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: italic; /* normal, oblique */
+    font-weight: bold;
+    text-decoration: underline; /* overline, line-through */
+    text-transform: capitalize; /* uppercase, lowercase */
+    text-align: center /* left, right */
+}
+
+.google-font {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 100px;
+    background-color: #d3c8c8
+}
+
+#google-font-one {
+    font-family: Chilanka, cursive;
+}
+
+#google-font-two {
+    font-family: Pacifico, cursive;
+}
+
+
 
 
 /* Box model */

@@ -191,13 +191,70 @@ div.box-container div{
 
 #google-font-one {
     font-family: Chilanka, cursive;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
 
 #google-font-two {
     font-family: Pacifico, cursive;
 }
 
-
-
-
 /* Box model */
+.width-height {
+    width: 530px;
+    height: 330px;
+    background-color: coral
+}
+
+.padding {
+    background-color: aquamarine;
+    color: black;
+
+    padding: 20px 35px 55px 13px
+    /* padding-left: 13px;
+    padding-top: 20px;
+    padding-right: 35px;
+    padding-bottom: 55px; */
+
+    /* 
+        shorthand padding
+        
+        padding: 5px; semua sisi element
+
+        padding: 5px 10px; top & bottom : 5px , left & right : 10px
+
+        padding: 5px 10px 15px; top: 5px, left & right: 10px; bottom: 15px;
+
+        padding: 5px 10px 15px 20px; top - right - bottom - left
+
+    */
+}
+
+.margin {
+    width: 500px;
+    height: 200px;
+    background-color: deeppink;
+    margin : 20px;
+
+    /* 
+        shorthand margin
+        
+        margin: 5px; semua sisi element
+
+        margin: 5px 10px; top & bottom : 5px , left & right : 10px
+
+        margin: 5px 10px 15px; top: 5px, left & right: 10px; bottom: 15px;
+
+        margin: 5px 10px 15px 20px; top - right - bottom - left
+
+    */
+}
+
+/* .margin-one {
+    margin-bottom: 20px;
+}
+
+.margin-two {
+    margin-top: 50px;
+    margin-bottom: 30px
+} */

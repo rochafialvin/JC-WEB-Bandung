@@ -97,7 +97,7 @@ div.box-container div{
     background-image: url(./files/pictures/logo-css-150x150.png);
     background-color: #24913f;
     background-repeat: no-repeat;
-    background-position: bottom/* bottom center */
+    background-position: top/* top center */
     /* background-position-x: right;
     background-position-y: bottom; */
 
@@ -111,9 +111,26 @@ div.box-container div{
     /* 
         background-image akan ada di atas background color
     */
+}
+
+.background-size {
+    background-image: url('./files/pictures/Logo-Css-720x720.png');
+    background-size: 500px 300px;
 
     /* background-size: 500px width & height: 500px */
     /* background-size: 500px 300px width 500 height 300 */
+
+    /* 
+        background-size dapat menerima satu atau dua value
+        
+        jika hanya menerima satu value, contoh :
+            background-size: 500px
+            Maka value tersebut akan digunakan untuk width & height
+
+        jika menerima dua values, contoh:
+            background-size: 500px 300px
+            Maka value 500px akan digunakan untuk width & 300px untuk height
+    */
     
     /* 
         contain
@@ -133,7 +150,21 @@ div.box-container div{
     */
 }
 
+.background-attachment-one {
+    background-image: url('./files/pictures/logo-css-300x300.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
 
+.background-attachment-two {
+    background-image: url('./files/pictures/kitty.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.background-shorthand {
+    background: url('./files/pictures/logo-css-150x150.png') center center fixed purple
+}
 
 
 

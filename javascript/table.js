@@ -23,6 +23,23 @@ var inputManusia = () => {
         }
     )
 
-    console.log(arrManusia)
+    // Render list
+
+    // manusia = {nama, umur, gender, pekerjaan}
+    let list = arrManusia.map(manusia => {
+        return (
+            `
+            <tr>
+                <td>${manusia.nama}</td>
+                <td>${manusia.umur}</td>
+                <td>${manusia.gender}</td>
+                <td>${manusia.pekerjaan}</td>
+            </tr>
+            `
+        )
+    })
+
+    document.getElementById('list-manusia').innerHTML = list.join('')
+    // innerHTML untuk menyisipkan content ke dalam suatu tag html
 
 }

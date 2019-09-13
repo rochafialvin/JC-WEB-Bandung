@@ -3,6 +3,10 @@
 <html>
     <head>
         <title>Table</title>
+
+        <!-- Menghubungkan file html dengan file javascript -->
+        <script defer src="table.js"></script>
+
     </head>
 
     <style>
@@ -73,7 +77,10 @@
                                     <option value="PM">PM</option>
                                 </select>
                             </p>
-                            <input type='button' value="Tambahkan">
+
+                            <!-- di click -> call function inputManusia -->
+                            <!-- onclick : event handler -->
+                            <input type='button' value="Tambahkan" onclick="inputManusia()">
                         </form>
                     </div>
                 </td>

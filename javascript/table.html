@@ -27,6 +27,16 @@
             margin: 10px auto;
         }
 
+        /* Tag table yang memiliki class table-wrap */
+        table.table-wrap {
+            margin-bottom: 20px;
+        }
+        
+        /* Tag table yang memiliki class table-data */
+        table.table-data {
+            margin: 15px;
+        }
+
         th {
             padding: 20px; 
         }
@@ -37,7 +47,8 @@
     <body>
         <h1 style="text-align: center">Table</h1>
 
-        <table>
+        <!-- Table Form -->
+        <table class="table-wrap">
             <tr>
                 <th>Form Manusia</th>
                 <th>Form Hewan</th>
@@ -69,6 +80,31 @@
 
                 <td>
                     FORM UNTUK ISI DATA HEWAN
+                </td>
+            </tr>
+        </table>
+
+        <!-- Table List -->
+        <table>
+            <tr>
+                <th>Data Manusia</th>
+                <th>Data Hewan</th>
+            </tr>
+
+            <tr>
+                <td>
+                    <table class="table-data">
+                        <tr>
+                            <th>Nama</th>
+                            <th>Umur</th>
+                            <th>Kelamin</th>
+                            <th>Pekerjaan</th>
+                        </tr>
+                    </table>
+                </td>
+
+                <td>
+                    DATA HEWAN
                 </td>
             </tr>
         </table>

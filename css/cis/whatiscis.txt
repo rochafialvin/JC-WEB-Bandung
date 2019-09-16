@@ -14,6 +14,14 @@ Inheritance
     Suatu style pada suatu element itu dapat di turunkan terhadap element lain yang menjadi sebuah child.
     Tidak semua style dapat di turunkan.
 
+    style pada child akan memiliki prioritas yang lebih dari pada parent
+
+    <div>
+        <p></p>
+    </div>
+
+    style yang di terapkan ke tag 'p' akan lebih kuat di banding yang di 'div'
+
     style umum yang dapat di turunkan antara lain:
 
         - color
@@ -28,3 +36,6 @@ Inheritance
 
 
 Specificity
+    Setiap selector memiliki nilai yang berbeda, yang akan menentukan selector mana yang di terapkan
+
+    di lihat gambar yang dikirim, nilai Specificity yang paling besar yang akan di terapkan

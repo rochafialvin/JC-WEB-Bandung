@@ -19,7 +19,8 @@
     width: 90%;
     margin: 0 auto; /* top & bottom: 0, left & right: space yang tersisa di bagi dua. */
 
-    /* Menentukan banyak dan lebar kolom */
+    /* Menentukan banyak kolom dan lebar setiap kolom */
+    /* akan menghasilkan 3 kolom, masing2 400px */
     /* grid-template-columns: 400px 400px 400px */
 
     /* Memnetukan banyak kolom dan lebar dengan pola tertentu */
@@ -29,6 +30,7 @@
     grid-template-columns: 1fr 3fr 1fr;
 
     /* Menentukan banyak baris dan lebar setiap barisnya */
+    /* akan menghasilkan 3 baris, pertama 130px, kedua 90px, ketiga 170px */
     /* grid-template-rows: 130px 90px 170px; */
 
     /* Menentukan tinggi baris */
@@ -84,4 +86,50 @@
 
 .item:nth-child(even){
     background-color: #236fc8
+}
+
+/* JUSTIFY & ALIGN CONTENT */
+/*  
+    Justify: horizontal
+    start: kiri,
+    end: kanan,
+    center,
+    space-around,
+    space-between,
+    space-evenly
+
+    Align: Vertical
+    start: atas,
+    end: bawah,
+    center,
+    space-around,
+    space-between,
+    space-evenly
+*/
+.content-container{
+    display: grid;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    background-color: aquamarine;
+
+    grid-template-columns: 80px 150px 80px;
+    grid-auto-rows: 80px;
+    gap: 10px; /* row dan column: 10px*/
+
+    /* justify-content: end;
+    align-content: end */
+
+    /* justify-content: center;
+    align-content: center */
+
+    /* justify-content: space-around;
+    align-content: space-around */
+
+    /* justify-content: space-between;
+    align-content: space-between; */
+
+    /* justify-content: space-evenly;
+    align-content: space-evenly */
+    
 }

@@ -38,9 +38,12 @@
     /* grid-template-rows: repeat(3, 130px); */
 
     /* Menentukan tinggi baris yang belum di definisikan */
-    /* grid-template-rows: 220px 110px; */
+    grid-template-rows: 100px;
 
-    grid-auto-rows: 150px;
+    /* grid-auto-rows: 150px; */
+
+    /* minimal tinggi 150px, jika konten membutuhkan ruang lebih, akan di sesuaikan */
+    grid-auto-rows: minmax(150px, auto);
 
     /* Membuat gap antar kolom */
     /* column-gap: 10px; */
@@ -49,7 +52,9 @@
     /* row-gap: 30px; */
 
     /* row column */
-    gap: 30px 10px
+    gap: 20px 15px;
+
+    margin-bottom: 100px;
 }
 
 .item {
@@ -57,6 +62,24 @@
     color: white;
     padding: 10px;
     font-size: 20px;
+}
+
+.item-2 {
+    /* grid-row-start: 1;
+    grid-row-end: 3; */
+
+    grid-row: 1 / 3;
+    grid-column: 2 / 3
+}
+
+.item-5 {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+}
+
+.item-6 {
+    grid-column: 3 / 4;
+    grid-row: 2 / 4;
 }
 
 .item:nth-child(even){

@@ -47,5 +47,100 @@ body {
     */
     font-size: 1.5em;
     display: grid;
-    grid-template-rows: 130px 800px 200px
+    grid-template-rows: 130px 800px 200px;
+}
+
+.navbar {
+    background: linear-gradient(to right,
+    rgb(7, 211, 201),
+    rgb(56, 235, 101),
+    rgb(179, 238, 69)
+    )
+}
+
+.content {
+    background-image: url('./pictures/black-background.jpg');
+    background-position: center;
+}
+
+.footer {
+    background: white
+}
+
+/* tag ul yang ada di dalam tag nav */
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+
+    /* Menghilangkan style default list (dot) */
+    list-style: none;
+}
+
+nav li {
+    padding: 1em 0
+}
+
+
+nav li a {
+    color: white;
+    font-weight: 700;
+
+    /* menghilankan default a, underline, blue & purple color */
+    text-decoration: none;
+
+    /* transparent, 0 - 1 */
+    opacity: 0.6;
+}
+
+/* mengharahkan kursor ke tag a */
+nav li a:hover {
+    opacity: 1;
+}
+
+.hero {
+    /* lebar maksimal 960px, dapat mengecil jika parentnya di kecilkan */
+    max-width: 960px;
+    margin: 15px auto;
+    text-align: center;
+    color: rgb(124, 124, 124)
+}
+
+/* tag image yang ada di dalam tag apapun yang memiliki class hero */
+.hero img {
+    width: 200px;
+    /* max value : 100px, jika di tulis lebih dari 100 tidak akan error, namun efek sama dengan jika value 100px */
+    border-radius: 100px
+}
+
+.hero h1 {
+    font-size: 2em;
+    font-weight: 300;
+    color: rgb(192, 190, 190);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* paragraf yang ada di dalam tag div */
+div p {
+
+}
+
+/* paragraf yang ada di dalam tag div yang memiliki class container */
+div.container p {
+
 }

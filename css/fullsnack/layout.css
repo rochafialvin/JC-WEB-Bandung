@@ -154,7 +154,27 @@ nav li a:hover {
     transform: translateY(-1px)
 }
 
+footer ul {
+    max-width: 640px;
+    margin: 48px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center
+}
 
+footer ul li {
+    list-style: none;
+    font-size: 50px;
+}
+
+footer li a {
+    text-decoration: none;
+    color: grey;
+}
+
+footer p {
+    font-size: 20px;
+}
 
 
 

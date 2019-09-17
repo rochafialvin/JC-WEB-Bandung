@@ -133,3 +133,37 @@
     align-content: space-evenly */
     
 }
+
+/* GRID AREAS */
+
+.areas-container {
+    display: grid;
+    width: 90%;
+    margin: 100px auto;
+
+    grid-template-columns: 1fr 3fr 2fr 1fr;
+    grid-template-rows: 100px 800px 200px;
+
+    gap: 20px;
+
+    grid-template-areas:
+        "header header header header"
+        "main main . side"
+        "footer footer footer footer"
+}
+
+.header {
+    grid-area: header
+}
+
+.main {
+    grid-area: main
+}
+
+.side{
+    grid-area: side
+}
+
+.footer {
+    grid-area: footer
+}

@@ -131,9 +131,28 @@ nav li a:hover {
     background-color: rgb(204, 34, 139);
     font-weight: 700;
     text-decoration: none;
+
+    /* agar transisi jika di hover membutuhkan waktu 0.3 detik */
+    transition: .3s
 }
 
+/* styling ketika kursor mendekat (hover) */
+.btn:hover {
+    /* box-shadow: offset-x offset-y blur spread color */
+    box-shadow: 0 20px 30px 0 rgb(133, 59, 182);
 
+    /* Menaikkan element dari posisi asli sejauh 3px */
+    transform: translateY(-3px)
+}
+
+/* styling ketika di click */
+.btn:active {
+    /* box-shadow: offset-x offset-y blur spread color */
+    box-shadow: 0 10px 20px 0 rgb(252, 0, 0);
+
+    /* Menaikkan element dari posisi asli sejauh 3px */
+    transform: translateY(-1px)
+}
 
 
 

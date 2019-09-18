@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <style>
+        
+        div {
+            width: 90%;
+            height: 900px;
+            margin:0 auto;
+            border: 1px solid slateblue;
+        }
+
+        /* xtra small */
+        @media (max-width: 575px){
+            div{
+                background-color: darksalmon
+            }
+        }
+
+        /* Small */
+        @media (min-width: 576px){
+            div{
+                background-color: blueviolet
+            }
+        }
+
+        /* Medium */
+        @media (min-width: 768px){
+            div{
+                background-color: rgb(45, 192, 26)
+            }
+        }
+
+
+        /* Large */
+        @media (min-width: 992px){
+            div{
+                background-color: rgb(14, 1, 1)
+            }
+        }
+
+        /* Xtra Large */
+        @media (min-width: 1200px){
+            div{
+                background-color: rgb(9, 197, 188)
+            }
+        }
+        
+        </style>
+    </head>
+
+    <body>
+        <!-- 
+            Medua query adalah bagaimana kita menentukan sebuah style berdasarkan lebar browser
+         -->
+
+         <div>
+             Media query
+         </div>
+    </body>
+</html>

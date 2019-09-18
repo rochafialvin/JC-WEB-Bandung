@@ -7,6 +7,16 @@
         <!-- CDN Boostrap 4 -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+        <style>
+            
+            /* div {
+                padding-top: 10px;
+                padding-bottom: 10px;
+
+                padding: 10px
+            } */
+        
+        </style>
     </head>
 
     <body>
@@ -43,6 +53,7 @@
                 </footer>
             </blockquote>
         
+            <!-- Unordered List -->
             <ul class="list-unstyled">
                 <li>List 1</li>
                 <li>List 2</li>
@@ -50,9 +61,121 @@
                 <li>List 4</li>
                 <li>List 5</li>
             </ul>
-        
-        
-        
+
+            <!-- Ordered List -->
+            <ol class="list-unstyled">
+                <li>List 1</li>
+                <li>List 2</li>
+                <li>List 3</li>
+                <li>List 4</li>
+                <li>List 5</li>
+            </ol>
+
+            <!-- Alignment & Display -->
+
+            <!-- 
+                Media Query
+                Styling berdasarkan lebar layar
+
+                xs
+                sm           : small
+                md          : medium
+                large       : lg
+                xtra large  : xl
+             -->
+            
+            <p class="text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae dolores iusto qui, dicta praesentium tempore eius quaerat at, labore illo deserunt minus, quas sint. Vero, harum? Nesciunt sapiente tenetur eos dolor? Aperiam, repellat? Deserunt quas libero, ullam sint voluptate dolorum possimus voluptates unde animi vel ab perspiciatis ex consequatur voluptatibus quae, repellendus quam nobis quod delectus commodi, deleniti velit sunt! Perferendis, tempore sequi. Recusandae amet omnis magni deserunt eaque quasi ullam! Suscipit sapiente quaerat ut architecto libero eum mollitia tenetur distinctio tempora officia repudiandae aliquam, blanditiis necessitatibus, aut vel nemo!
+            </p>
+
+            <p class="text-left">Rata kiri</p>
+            <p class="text-center">Rata Tengah</p>
+            <p class="text-right">Rata Kanan</p>
+            
+            <p class="text-sm-right">Rata kanan pada small atau lebih besar</p>
+            <p class="text-md-right">Rata kanan pada medium atau lebih besar</p>
+            <p class="text-lg-right">Rata kanan pada large atau lebih besar</p>
+            <p class="text-xl-right">Rata kanan pada xtra large atau lebih besar</p>
+
+
+            <!-- Block & Inline -->
+
+            <!-- block to inline -->
+            <p class="d-inline">Paragraf merupakan block element</p>
+            <p class="d-inline">Seharusnya ini akan ada di bawah tulisan paragraf sebelumnya</p>
+
+            <!-- inine to block -->
+            <span class="d-block">Ini menggunakan tag Span</span>
+            <span class="d-block" > Maka seharusnya teks ini akan ada di samping teks span sebelumnya</span>
+            <br>
+            <hr>
+
+
+            <!-- Mewarnai -->
+
+            <!-- Text -->
+            <p>Teks tanpa class bootstrap</p>
+            <p class="text-primary">Text Primary Color</p>
+            <p class="text-secondary">Text Secondary Color</p>
+            <p class="text-success">Text Success Color</p>
+            <p class="text-warning">Text Warning Color</p>
+            <p class="text-info">Text Info Color</p>
+            <p class="text-danger">Text Danger Color</p>
+            <br><hr>
+
+            <!-- Background -->
+            <p class="h3 text-white bg-primary">Background Primary</p>
+            <p class="h3 text-white bg-secondary">Background Secondary</p>
+            <p class="h3 text-white bg-success">Background Success</p>
+            <p class="h3 text-white bg-info">Background Info</p>
+            <p class="h3 text-white bg-warning">Background Warning</p>
+            <p class="h3 text-white bg-danger">Background Danger</p>
+            <p class="h3 text-white bg-dark">Background Dark</p>
+            <p class="h3 text-white bg-transparent">Background Transparent</p>
+
+            <p class="invisible" >Tidak terlihat</p>
+
+            <br><hr>
+
+            <!-- Spacing / Box Model -->
+
+            <!-- 
+                Margin adalah space antar element
+
+                - margin collapse terjadi hanya pada margin vertikal
+                    margin bottom dari sebuah element bertemu dengan margtion top element lain
+                    maka nilai yang digunakan adalah yang paling besar
+
+                m : margin
+                p : padding
+
+                t : top
+                r : right
+                b : bottom
+                l : left
+
+                y : vertikal
+                x : horizontal
+
+                mr : margin kanan
+                mb : margin bawah
+                my : margin top and bottom
+                mx : margin left and right
+
+                pr : padding kanan
+                pb : padding bawah
+                py : padding top and bottom
+                px : padding left and right
+
+             -->
+            <h1 class="bg-info mb-0">Something</h1>
+            <h1 class="bg-info mt-0">Margin Top 0</h1>
+            <h1 class="bg-info mt-1">Margin Top 1</h1>
+            <h1 class="bg-info mt-2">Margin Top 2</h1>
+            <h1 class="bg-info mt-3">Margin Top 3</h1>
+            <h1 class="bg-info mt-4">Margin Top 4</h1>
+            <h1 class="bg-info mt-5">Margin Top 5</h1>
+            
         </div>
 
 

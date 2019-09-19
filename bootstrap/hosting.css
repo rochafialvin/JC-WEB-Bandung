@@ -1,0 +1,8 @@
+.border-3 {
+    border-width: 3px !important
+}
+
+/* Semua class card yang ada di dalam class clard-deck */
+.card-deck .card {
+    min-width: 200px;
+}
